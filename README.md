@@ -38,24 +38,19 @@ If the calculated speed > threshold:
 ---
 
 ## 5. Running the Project 
-### Step 1
+Step 1
 Install requirements:
 
 ```bash
 pip install -r requirements.txt
 
-### Step 2 — Run the Speed Detection Script
+ Step 2 — Run the Speed Detection Script
 
----
 python yolov9/detect_dual_anpr.py --weights best.pt --source demo/input_video.mp4
----
 
-<hr>
-
-### Step 3 — View Output
+Step 3 — View Output
 
 All results are saved automatically in:
 
----
 runs/detect/exp/
 ---
