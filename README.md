@@ -44,22 +44,18 @@ Install requirements:
 ```bash
 pip install -r requirements.txt
 
-```html
-<h3>Step 2 — Run the Speed Detection Script</h3>
+### Step 2 — Run the Speed Detection Script
 
-<pre>
+---
 python yolov9/detect_dual_anpr.py --weights best.pt --source demo/input_video.mp4
-</pre>
-
-<p><strong>weights</strong> — Trained YOLO model file (best.pt)</p>
-<p><strong>source</strong> — Path to your input video</p>
+---
 
 <hr>
 
-<h3>Step 3 — View Output</h3>
+### Step 3 — View Output
 
-<p>All results are saved automatically in:</p>
+All results are saved automatically in:
 
-<pre>
+---
 runs/detect/exp/
-</pre>
+---
