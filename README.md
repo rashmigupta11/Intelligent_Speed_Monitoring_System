@@ -43,14 +43,16 @@ Install requirements:
 
 ```bash
 pip install -r requirements.txt
-
- Step 2 — Run the Speed Detection Script
-
 python yolov9/detect_dual_anpr.py --weights best.pt --source demo/input_video.mp4
-
-Step 3 — View Output
-
-All results are saved automatically in:
-
 runs/detect/exp/
----
+
+```
+## Output Image 
+
+<p>
+  <img src="speed_violation_output.png"
+       alt="Intelligent Speed Monitoring System – demo output"
+       style="max-width: 100%; height: auto;">
+</p>
+
+
